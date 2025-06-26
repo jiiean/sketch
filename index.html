@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sketch3D.ai</title>
+  <link rel="icon" href="image.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="nav-center">Sketch3D.ai</div>
+
+    <div class="nav-left">
+      <a href="#" id="about-link">ABOUT</a>
+      <a href="#" id="discover-link">DISCOVER</a>
+    </div>
+
+    <div class="nav-right">
+      <div class="dropdown">
+        <button id="lang-btn">EN ▾</button>
+        <div class="dropdown-content" id="lang-menu">
+          <a href="#" data-lang="en">English</a>
+          <a href="#" data-lang="中文">中文</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <main>
+    <p class="tagline">An AI generative tool that can instantly transform a 2D design into a 3D model.</p>
+    <div class="image-container">
+      <img src="image.png" alt="3d Model" />
+    </div>
+    <div class="button-container">
+      <button id="sign-up-btn" class="btn dark-btn">Sign Up</button>
+      <button id="quick-start-btn" class="btn white-btn">Quick Start</button>
+    </div>
+  </main>
+
+  <div class="floor-grid"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
